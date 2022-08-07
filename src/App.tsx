@@ -1,8 +1,13 @@
-function App() {
+import { Provider } from 'react-redux';
+import store from '@/store';
+
+const App = () => {
   return (
-    <div>
-      Starwars app
-    </div>
+    <Provider store={store}>
+      <div>
+        Starwars app
+      </div>
+    </Provider>
   )
 }
 
