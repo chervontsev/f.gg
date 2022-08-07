@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import store from '@/store';
+import { store } from '@/store';
 import { Home, Char } from '@/routes';
 
 const App = () => {
